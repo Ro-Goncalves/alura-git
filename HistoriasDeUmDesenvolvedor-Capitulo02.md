@@ -1,15 +1,19 @@
 # Antes de entrar de trabalhar, mais uma entrevista
 
-`Personagens`
-
-`Joãozinho`: Estudante de analise e desenvolvimento de sistemas, tentando uma vaga de estágio
+#### Personagens
+```phyton
+Joãozinho: Estudante de analise e desenvolvimento de sistemas, tentando uma vaga de estágio
 na área.
 
-`Pedrinho`: Responsável pelo setor de desenvolvimento da **N.C.M.N.B.**
+Pedrinho: Responsável pelo setor de desenvolvimento da N.C.M.N.B.
 
-`Marquinho`: Um desenvolvedor do time.
+Marquinho: Um desenvolvedor do time.
+```
 
-`Cenário`: *Uma sala de reuniões da N.C.M.N.B., Pedrinho está sentado à frente de Joãozinho, entre eles existe uma mesa retangular.*
+#### Cenário
+```
+Uma sala de reuniões da N.C.M.N.B., Pedrinho está sentado à frente de Joãozinho, entre eles existe uma mesa retangular.
+```
 
 `Pedrinho`
 Boa tarde.
