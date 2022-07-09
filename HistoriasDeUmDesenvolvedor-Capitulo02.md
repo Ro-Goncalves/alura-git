@@ -107,7 +107,7 @@ Nesse caso o git está falando para você que não conhece esse arquivo. Ele é 
 alguns outros status. Vou lhe explicando quando aparecerem. 
 
 **Joãozinho:**
-Certo. Agora eu posso adicionar esse arquivo na fila para ser *comitado* utiliznado
+Certo. Agora eu posso adicionar esse arquivo na fila para ser *"comitado"* utilizando
 ```
 git add .
 ```
@@ -127,3 +127,4 @@ Changes to be committed:
 
 **Marquinho:**
 Isso, quando você faz isso falamos que enviou o arquivo para o *stage*.
+
