@@ -13,6 +13,8 @@ O meu maior desafio, até agora, estão sendo:
 * Em qual momento devo me aprofundar mais no assunto?
 
 ## Links importantes
+* [Opções para o git log](https://devhints.io/git-log).
+* [Documentação Git](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio).
 
 ## Implementação daquilo que estou aprendendo
 Esse curso não teve muito desenvolvimento de código, e nem era o seu foco. Por isso,
