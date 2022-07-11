@@ -23,8 +23,13 @@ assim dizer, sobre o que foram apresentados durante o curso.
 
 Em um outro momento pretendo escrever um artigo, ou vários, sobre os mesmos temas.
 
-[Histórias de um Desenvolvedor - Capítulo 02](https://github.com/Ro-Goncalves/alura-git/blob/master/HistoriasDeUmDesenvolvedor-Capitulo02.md).
+[Histórias de um Desenvolvedor - Capítulo 02](HistoriasDeUmDesenvolvedor-Capitulo02.md).
 
 Os artigos podem ser lidos em:
 
-[Status Git - Onde vivem o que comem]().
+[Estados dos arquivos no Git](ARTIGO_Status_Git.md).
+
+Sobre o que quero escrever:
+* O que é "commitar"?
+* O que é *snapshot*?
+* Branches?
