@@ -74,10 +74,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ## Eu gosto de ver
-Essa imagem pode ajudar a ver o que acabo de escrever.
+Dizem que uma imagem vale mais do que mil palavras.
+
 ![Ciclo de vida dos estados dos arquivos](img/lifecycle.png?raw=true).
+
+A fonte dessa imagem pode ser vista na referência [2]
 
 
 ## Referências:
-[STACKOVERFLOW - Quais as diferenças entre os estados dos arquivos do git untracked unmodified](https://pt.stackoverflow.com/questions/326086/quais-as-diferenças-entre-os-estados-dos-arquivos-do-git-untracked-unmodified).
-[GIT - Fundamentos de Git gravando alterações em seu repostório](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio).
+1. [STACKOVERFLOW - Quais as diferenças entre os estados dos arquivos do git untracked unmodified](https://pt.stackoverflow.com/questions/326086/quais-as-diferenças-entre-os-estados-dos-arquivos-do-git-untracked-unmodified).
+2. [GIT - Fundamentos de Git gravando alterações em seu repostório](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio).
