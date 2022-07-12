@@ -33,3 +33,4 @@ Sobre o que quero escrever:
 * O que é "commitar"?
 * O que é *snapshot*?
 * Branches?
+* *working tree*?

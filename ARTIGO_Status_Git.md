@@ -1,15 +1,16 @@
 # Estados dos arquivos no Git
 
-O Git possui uma série de estados para os arquivos em um diretório, no fundo dois, e um desses dois mais 3.
-Confuso? Relaxa, todos ficamos no começo; eu ainda estou. Nesse breve artigo comentárei um pouco sobre esse 
-assunto.
+O Git possui uma série de estados para os arquivos em um diretório, no fundo dois; um desses dois; três.
+Confuso? Relaxa, todos ficamos no começo; eu ainda estou. 
 
-O Git pode o não conhecer o arquivo, por isso são definidos os estados *tracked*, *Untracked* (rastreado, não rastreado respectivamente).
-Inicialmente o arquivo é não rastreado e ao "dizer" ao Git para restreá-los temos três estados possivéis *unmodified*, *modified* e *staged* (não modificado, modificado e preparados respectivamente).
+Nesse breve artigo, comentarei um pouco sobre esse assunto.
+
+O Git pode ou não conhecer um arquivo, por isso são definidos os estados *tracked*, *Untracked* (rastreado, não rastreado respectivamente).
+Inicialmente o arquivo é não rastreado; ao "dizer" ao Git para restreá-los temos três estados possíveis *unmodified*, *modified* e *staged* (não modificado, modificado e preparados respectivamente).
 
 ## UNTRACKED
 Imagina que você possui um diretório, e cria um arquivo dentro dele. Como essa é a primeira vez que o Git vê o arquivo, ele informará que não o conhece.
-Para verificar esse fato utilizamos o git status
+Para verificar esse fato, basta utilizar `git status`.
 
 ```bash
 $ git status
@@ -23,12 +24,12 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-Note que temos um arquivo seção *Untracked files*. O Git nos da algumas dicas, logo abaixo da seção lemos: `use "git add <file>..."`, e no final `(...) but untracked files present (use "git add" to track)`.
+Note que temos um arquivo seção *Untracked files*. O Git nos da algumas dicas, logo abaixo da seção lemos: *use "git add <file>..."*, e no final *(...) but untracked files present (use "git add" to track)*.
 
 ## TRACKED
 
 ### STAGED
-Vamos seguir o que foi informado pelo Git e usar `git add`. 
+Vamos seguir o que foi informado pelo Git e usar `git add`. Ao verificar o estado de nosso diretório novamente, temos:
 ```bash
 $ git status
 On branch master
@@ -40,13 +41,11 @@ Changes to be committed:
         new file:   ARTIGO_Status_Git.md
 ```
 
-Lembra o que comentamos sobre os arquivos rastreados? Eles pode estar em três estados. Nesse caso o nosso arquivo "pulou" para o terceiro, preparado, isso quer dizer que podemos fazer o *commit* desse arquivo. Ao faze-lo nosso diretório estará sem modificação ou novos arquivos.
-Note também que o Git indicou que se trata de um novo arquivo: `new file:   ARTIGO_Status_Git.md`.
-(NÂO GOSTEI MUITO DESSA PARTE - REESCREVER)
+Veja que interessate, surgiu uma nova secão *Changes to be committed*; nosso arquivos é indicado como novo, *new file:   ARTIGO_Status_Git.md*, isso indica que ele está no estado *staged*.
 
 ### UNMODIFIED
-E agora que não criamos e nem modificamos nenhum arquivos, o que acontece? Bem o Git entende que não existe nada a fazer no momento, 
-indicando: `nothing to commit, working tree clean`.
+Ao realizar o *commit* e verificar o estado do diretório, o Git indica que nossa *working tree* está limpa, *nothing to commit, working tree clean*.
+É fácil concluir que não existem arquivos novos e nem modificados nesse momento.
 ```bash
 $ git status
 On branch master
@@ -57,8 +56,8 @@ nothing to commit, working tree clean
 ```
 
 ### MODIFIED
-E se fizermos alguma alteração em um arquivo rastreado, qual o seu estado? Bem, acontece o esperado, modificado, tão simple
-quanto parece. Agora é possível seguir os mesmos passo anteriores. `add`, `commit`. 
+E se fizermos alguma alteração em um arquivo rastreado, qual o seu estado? Bem; acontece o esperado; modificado; tão simple
+quanto parece, *modified:   ARTIGO_Status_Git.md*. 
 ```bash
 $ git status
 On branch master
