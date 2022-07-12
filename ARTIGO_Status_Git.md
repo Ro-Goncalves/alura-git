@@ -81,5 +81,5 @@ A fonte dessa imagem pode ser vista na referência [2]
 
 
 ## Referências:
-1. [STACKOVERFLOW - Quais as diferenças entre os estados dos arquivos do git untracked unmodified](https://pt.stackoverflow.com/questions/326086/quais-as-diferenças-entre-os-estados-dos-arquivos-do-git-untracked-unmodified).
-2. [GIT - Fundamentos de Git gravando alterações em seu repostório](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio).
+1. [STACKOVERFLOW: Quais as diferenças entre os estados dos arquivos do git untracked unmodified](https://pt.stackoverflow.com/questions/326086/quais-as-diferenças-entre-os-estados-dos-arquivos-do-git-untracked-unmodified).
+2. [GIT: Fundamentos de Git gravando alterações em seu repostório](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio).
