@@ -29,6 +29,8 @@ Os artigos podem ser lidos em:
 
 * [Estados dos arquivos no Git](ARTIGO_Status_Git.md).
 * [Um pouco sobre Snapshots](ARTIGO_ExplicandoSnapshot.md).
+* [Branches, que venha o caos](ARTIGO_Branches.md).
+* [Merge, o fim, ou não, do caos](ARTIGO_Merge.md).
 
 
 Sobre o que quero escrever:
@@ -36,7 +38,6 @@ Sobre o que quero escrever:
 * *working tree*?
 * *blobs*
 * *tree*
-* *Marge*
 
 Artigo/Livros para estudar:
 * [GITHUB: Commits Are Snapshots not diffs](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/).
