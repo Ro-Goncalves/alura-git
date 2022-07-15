@@ -33,10 +33,10 @@ Os artigos podem ser lidos em:
 
 Sobre o que quero escrever:
 * O que é "commitar"?
-* *Branches*?
 * *working tree*?
 * *blobs*
 * *tree*
+* *Marge*
 
 Artigo/Livros para estudar:
 * [GITHUB: Commits Are Snapshots not diffs](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/).
